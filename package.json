@@ -1,0 +1,16 @@
+{
+  "name": "product-01",
+  "version": "1.0.0",
+  "description": "Internode landing page",
+  "private": true,
+  "scripts": {
+    "icons:sync": "mkdir -p icons && cp node_modules/heroicons/24/outline/funnel.svg node_modules/heroicons/24/outline/user-group.svg node_modules/heroicons/24/outline/bolt.svg icons/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "heroicons": "^2.2.0"
+  }
+}
