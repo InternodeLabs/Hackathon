@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Internode — Gmail CRM for founders</title>
+    <title>Klear — Gmail CRM for founders</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +15,16 @@
   <body>
     <header class="nav" id="top">
       <div class="nav__inner">
-        <a class="nav__logo" href="#top">Internode</a>
+        <a class="nav__logo" href="#top">
+          <img
+            class="nav__logo-mark"
+            src="images/logo.png"
+            alt=""
+            width="32"
+            height="32"
+          />
+          Klear
+        </a>
         <nav class="nav__links" aria-label="Primary">
           <a href="#features">Features</a>
         </nav>
@@ -29,18 +38,24 @@
           <p class="eyebrow">For founders</p>
           <h1>Never lose the thread.</h1>
           <p class="lede">
-            Internode is a Chrome extension for Gmail that helps founders see which
-            conversations need attention now—with relationship context built from
-            the threads you already have. No new app, no new workflow.
+            A Chrome extension for Gmail that gives founders a lightweight CRM. See
+            which conversations need attention now, with context from the threads
+            you already have.
           </p>
           <div class="hero__actions">
             <a class="btn btn--primary" href="#cta">Add to Chrome</a>
           </div>
-          <div
-            class="placeholder placeholder--hero"
-            role="img"
-            aria-label="Product screenshot placeholder"
-          ></div>
+          <img
+            class="hero__mockup"
+            src="images/mockup-main.png"
+            alt="Klear conversation view in Gmail showing action to take, latest status, and thread history"
+            width="1024"
+            height="764"
+          />
+          <p class="hero__caption">
+            Pick up any thread right where it left off. Klear keeps the context so
+            you don't have to.
+          </p>
         </div>
       </section>
 
@@ -49,35 +64,56 @@
           <p class="eyebrow">Features</p>
           <h2>Same inbox. Full context.</h2>
           <p class="section__lede">
-            Turn scattered emails into a lightweight CRM—priority threads, contact
-            summaries, and history—without leaving the inbox you check every day.
+            Turn scattered emails into a lightweight CRM—priority threads and contact
+            summaries—without leaving the inbox you check every day.
           </p>
-          <ul class="feature-grid">
-            <li class="feature">
-              <span class="icon icon--funnel" aria-hidden="true"></span>
-              <h3>Priority</h3>
-              <p>
-                Cut through inbox noise. We surface 1:1 and group threads that need
-                a reply or follow-up, so investors, clients, and leads do not slip.
-              </p>
+          <ul class="feature-showcases">
+            <li class="feature-showcase">
+              <img
+                class="feature-showcase__media"
+                src="images/feature-priority.png"
+                alt="Your Conversations list showing AI-powered follow-ups and priority threads"
+                width="1024"
+                height="647"
+              />
+              <div class="feature-showcase__body">
+                <span class="icon icon--funnel" aria-hidden="true"></span>
+                <h3>Priority</h3>
+                <p>
+                  Cut through inbox noise. We surface 1:1 and group threads that need
+                  a reply or follow-up, so investors, clients, and leads do not slip.
+                </p>
+              </div>
             </li>
-            <li class="feature">
-              <span class="icon icon--user-group" aria-hidden="true"></span>
-              <h3>Contact view</h3>
-              <p>
-                Each contact gets an auto-built profile: where things stand, the last
-                or next action from the thread, and key interactions over time.
-              </p>
-            </li>
-            <li class="feature">
-              <span class="icon icon--bolt" aria-hidden="true"></span>
-              <h3>Zero setup</h3>
-              <p>
-                Connect Gmail and start in seconds. Internode lives inside your
-                inbox—no separate login, no training, no change to how you work.
-              </p>
+            <li class="feature-showcase">
+              <img
+                class="feature-showcase__media"
+                src="images/feature-contact.png"
+                alt="Contact view with action to take and latest status for a conversation"
+                width="1024"
+                height="647"
+              />
+              <div class="feature-showcase__body">
+                <span class="icon icon--user-group" aria-hidden="true"></span>
+                <h3>Contact view</h3>
+                <p>
+                  Each contact gets an auto-built profile: where things stand, the last
+                  or next action from the thread, and key interactions over time.
+                </p>
+              </div>
             </li>
           </ul>
+        </div>
+      </section>
+
+      <section class="section section--setup" id="setup">
+        <div class="section__inner">
+          <span class="icon icon--bolt" aria-hidden="true"></span>
+          <h2>Zero setup</h2>
+          <p class="section__lede section__lede--tight">
+            Connect Gmail and start in seconds. Klear lives inside your inbox—no
+            separate login, no training, no change to how you work.
+          </p>
         </div>
       </section>
 
@@ -85,7 +121,7 @@
         <div class="cta-band__inner">
           <h2>Ready in seconds.</h2>
           <p>
-            Stop reconstructing context before every call. Add Internode to Chrome
+            Stop reconstructing context before every call. Add Klear to Chrome
             and keep every relationship clear from Gmail.
           </p>
           <a class="btn btn--primary" href="#top">Add to Chrome</a>
@@ -95,8 +131,17 @@
 
     <footer class="footer">
       <div class="footer__inner">
-        <span class="footer__brand">Internode</span>
-        <p class="footer__copy">© 2026 Internode</p>
+        <span class="footer__brand">
+          <img
+            class="footer__logo-mark"
+            src="images/logo.png"
+            alt=""
+            width="24"
+            height="24"
+          />
+          Klear
+        </span>
+        <p class="footer__copy">© 2026 Klear</p>
       </div>
     </footer>
   </body>
