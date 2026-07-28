@@ -453,6 +453,17 @@ h3 {
   text-wrap: pretty;
 }
 
+.footer__link {
+  color: var(--accent);
+  font-weight: 500;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.footer__link:hover {
+  color: var(--accent-hover);
+}
+
 @media (max-width: 768px) {
   .feature-showcases {
     grid-template-columns: 1fr;
@@ -519,6 +530,16 @@ h3 {
   margin: 1rem 0 0;
   font-size: 0.9375rem;
   color: var(--text-muted);
+}
+
+.install-download__notice {
+  margin: 1rem auto 0;
+  max-width: 480px;
+  font-size: 0.8125rem;
+  line-height: 1.55;
+  color: var(--text-muted);
+  text-align: center;
+  text-wrap: pretty;
 }
 
 .visually-hidden {
