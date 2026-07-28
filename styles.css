@@ -152,7 +152,7 @@ h3 {
 .lede,
 .section__lede {
   margin: 20px auto 0;
-  max-width: 42ch;
+  max-width: 52ch;
   font-size: 1.125rem;
   line-height: 1.6;
   color: var(--text-muted);
@@ -311,7 +311,7 @@ h3 {
   font-size: 0.875rem;
   line-height: 1.5;
   color: var(--text-muted);
-  max-width: 28ch;
+  max-width: 34ch;
   text-wrap: pretty;
 }
 
@@ -335,7 +335,7 @@ h3 {
 
 .cta-band p {
   margin: 0 auto 28px;
-  max-width: 36ch;
+  max-width: 44ch;
   color: var(--text-muted);
   font-size: 1.125rem;
   text-wrap: pretty;
