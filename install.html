@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Install Klear — Chrome extension</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="nav" id="top">
+      <div class="nav__inner">
+        <a class="nav__logo" href="index.html">
+          <img
+            class="nav__logo-mark"
+            src="images/logo.png"
+            alt=""
+            width="32"
+            height="32"
+          />
+          Klear
+        </a>
+        <nav class="nav__links" aria-label="Primary">
+          <a href="index.html#features">Features</a>
+        </nav>
+        <a class="btn btn--primary btn--small nav__cta" href="#top">Install guide</a>
+      </div>
+    </header>
+
+    <main class="doc-page">
+      <article class="doc">
+        <header class="doc__header">
+          <p class="eyebrow">Chrome extension</p>
+          <h1>Install Klear (v0.1.4)</h1>
+        </header>
+
+        <section class="install-download" id="download" aria-labelledby="download-heading">
+          <h2 id="download-heading" class="visually-hidden">Download</h2>
+          <a
+            class="btn btn--accent btn--download"
+            href="downloads/klear-v0.1.4.zip"
+            download
+          >
+            Download package
+          </a>
+          <p class="install-download__meta">
+            <code>klear-v0.1.4.zip</code> · then follow the steps below
+          </p>
+        </section>
+
+        <aside class="doc__checklist-panel" aria-labelledby="checklist-heading">
+          <h2 id="checklist-heading">Quick checklist</h2>
+          <ul class="doc__checklist doc__checklist--prominent">
+            <li>Unzip to a permanent folder with <code>manifest.json</code> at the root</li>
+            <li>Open <code>chrome://extensions</code> → turn <strong>Developer mode</strong> on</li>
+            <li><strong>Load unpacked</strong> → select that folder → see <strong>Klear 0.1.4</strong></li>
+            <li>Click the Klear icon → <strong>Connect with Portal</strong></li>
+            <li>Open <a class="doc__link" href="https://mail.google.com" target="_blank" rel="noopener noreferrer">Gmail</a> in the same Chrome profile and refresh</li>
+          </ul>
+        </aside>
+
+        <section class="doc__section">
+          <h2>1. Unzip the file</h2>
+          <ol>
+            <li>Double-click <code>klear-v0.1.4.zip</code> on your Desktop (or wherever it is).</li>
+            <li>
+              Move the unzipped folder somewhere permanent, e.g.
+              <code>~/Documents/Chrome-Extensions/klear-v0.1.4</code>.
+            </li>
+            <li>
+              Open the folder and confirm <code>manifest.json</code> is inside it (not in a
+              nested subfolder).
+            </li>
+          </ol>
+        </section>
+
+        <section class="doc__section">
+          <h2>2. Load the extension in Chrome</h2>
+          <ol>
+            <li>In Chrome, go to <code>chrome://extensions</code>.</li>
+            <li>Turn <strong>Developer mode</strong> on (top-right).</li>
+            <li>Click <strong>Load unpacked</strong> and select your folder.</li>
+            <li>Accept any permission prompts Chrome shows.</li>
+          </ol>
+        </section>
+
+        <section class="doc__section">
+          <h2>3. Connect your account</h2>
+          <ol>
+            <li>Click the <strong>Klear</strong> icon in the toolbar (pin it from the puzzle menu if needed).</li>
+            <li>Click <strong>Connect with Portal</strong> and sign in.</li>
+          </ol>
+        </section>
+
+        <section class="doc__section">
+          <h2>4. Open Gmail</h2>
+          <ol>
+            <li>
+              Open
+              <a class="doc__link" href="https://mail.google.com" target="_blank" rel="noopener noreferrer">Gmail</a>
+              in the same browser profile.
+            </li>
+            <li>Refresh the tab if Gmail was already open.</li>
+          </ol>
+        </section>
+
+        <footer class="doc__footer">
+          <a class="btn btn--secondary" href="index.html">← Back to home</a>
+        </footer>
+      </article>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__inner">
+        <span class="footer__brand">
+          <img
+            class="footer__logo-mark"
+            src="images/logo.png"
+            alt=""
+            width="24"
+            height="24"
+          />
+          Klear
+        </span>
+        <p class="footer__copy">© 2026 Klear</p>
+      </div>
+    </footer>
+  </body>
+</html>
